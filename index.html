@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS ASSIGNMENT NO 18</title>
+</head>
+<body>
+
+
+    <div class="profile-card">
+
+    <div class="Profile-box">
+    <h1 id="title">Profile Card</h1>
+
+    <p id="profile-name"><span>Name:</span> <span style="color: white;" id="username">Areeb</span></p>
+
+    <img onmouseover="this.style.height='210px'; this.style.width='210px'" onmouseout="this.style.height='200px'; this.style.width='200px'" src="image/white.jpeg" id="profile-img">
+    <p id="profile-role"><span class="role">Role:</span> Frontend Developer</p>
+
+    <p id="profile-des"><span>Hello!</span> I'am areeb i am a beginner frontend developer.</p>
+
+    </div>
+    </div>
+
+
+    <input id="name" type="text" placeholder="Enter your name">
+
+    <br>
+
+    <button id="btn" onclick="addName()">Add Name!</button>
+
+    <br>
+
+    <button id="btn-1" onclick="changeProfile(); reChangeProfile()">Change Profile!</button>
+    <button id="btn-2" onclick="changeImage()">Change Image!</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

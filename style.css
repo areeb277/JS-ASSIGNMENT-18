@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("image/background.jpg");
+    background-size: cover;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.profile-card {
+    height: 500px;
+    width: 550px;
+    /* background-color: green; */
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: 7rem;
+    border-radius: 18px;
+    border: 1px solid grey;
+}
+
+#title {
+    /* font-family: ; */
+    text-align: center;
+    margin-top: -3rem;
+    margin-bottom: 98px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    color: white;
+    width: 530px;
+    /* background-color: black; */
+}
+
+#profile-name {
+    position: absolute;
+    top: 130px;
+    left: 95px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+span {
+    color: black;
+    font-family: Adobe Premiere Pro;
+}
+
+#profile-img {
+    margin-left: 5.1rem;
+    border-radius: 15px;
+}
+
+#profile-role {
+    position: relative;
+    top: 25px;
+    left: 82px;
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+.role {
+    color: black;
+}
+
+#profile-des {
+    position: relative;
+    top: 40px;
+    left: 82px;
+    color: white;
+}
+
+#profile-img {
+    height: 200px;
+    width: 200px;
+}
+
+#btn {
+    height: 50px;
+    width: 450px;
+    border-radius: 20px;
+    margin-left: 750px;
+    margin-top: 1.4rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    transition: all .5s ease;
+}
+
+#btn:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 15px black;
+}
+
+input {
+    height: 50px;
+    width: 450px;
+    border-radius: 20px;
+    margin-left: 750px;
+    margin-top: 1.5rem;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+    padding-left: 15px;
+    font-size: 1.1rem;
+    transition: all .5s ease;
+}
+
+input:focus {
+    border: none;
+}
+
+#btn-1 {
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 748px;
+    margin-top: 1.4rem;
+    border: 1px solid grey;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.300);
+    backdrop-filter: blur(5px);
+    transition: all .5s ease;
+}
+
+#btn-1:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 15px black;
+}
+
+#btn-2 {
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 1.4rem;
+    border: 1px solid grey;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.601);
+    backdrop-filter: blur(5px);
+    transition: all .5s ease;
+}
+
+#btn-2:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 15px black;
+}
